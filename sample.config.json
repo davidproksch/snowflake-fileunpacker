@@ -1,0 +1,5 @@
+{
+"_comment": "RENAME this file to config.json",
+"cloud": "azure",
+"SASToken": "https://XXXXXXXXXXXXXXXXX.blob.core.windows.net/?sv=...."
+}
