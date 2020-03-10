@@ -1,6 +1,27 @@
+#
+# proksch: 2020-03-10 Adding support for .tar.gz and .tgz files
+#
+#
+#-------------------------------------
+#
+# Azure specific imports
+#
+#-------------------------------------
 from azure.storage.blob import *
 from azure.identity import *
 
+#-------------------------------------
+#
+# AWS specific imports
+#
+#-------------------------------------
+
+
+#-------------------------------------
+#
+# GCP specific imports
+#
+#-------------------------------------
 from datetime import datetime, timedelta
 from zipfile import ZipFile
 import gzip
